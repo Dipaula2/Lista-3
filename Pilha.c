@@ -50,11 +50,11 @@ int main() {
     empilhar(pilha, 1);
     empilhar(pilha, 2);
     empilhar(pilha, 3);
-    printf("%d\n", tamanho(pilha)); // Saída: 3
-    printf("%d\n", topo(pilha)); // Saída: 3
+    printf("%d\n", tamanho(pilha));
+    printf("%d\n", topo(pilha)); 
     int elemento = desempilhar(pilha);
-    printf("%d\n", elemento); // Saída: 3
-    printf("%d\n", esta_vazia(pilha)); // Saída: 0
+    printf("%d\n", elemento); 
+    printf("%d\n", esta_vazia(pilha));
     return 0;
 }
 #
