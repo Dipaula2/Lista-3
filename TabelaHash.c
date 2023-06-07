@@ -107,7 +107,6 @@ int tamanho(struct TabelaHash *tabela) {
     return tabela->num_elementos;
 }
 
-// Exemplo de uso
 int main() {
     struct TabelaHash *tabela = criar_tabela_hash(10);
     inserir(tabela, "chave1", "valor1");
@@ -115,7 +114,7 @@ int main() {
     inserir(tabela, "chave3", "valor3");
     imprimir(tabela);
 
-    printf("%s\n", buscar(tabela, "chave2"));  // Saída: valor2
+    printf("%s\n", buscar(tabela, "chave2"));
 
     remover(tabela, "chave1");
     imprimir(tabela);
